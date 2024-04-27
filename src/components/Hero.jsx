@@ -9,7 +9,7 @@ import bgImg from "../assets/cyber-bg.png";
 
 function Hero() {
   return (
-    <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between">
+    <div className="w-full h-screen  flex flex-col justify-between">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <p className="text-2xl">Unique Sequencing & Production</p>
@@ -23,8 +23,8 @@ function Hero() {
           <img className="w-full" src={bgImg} alt="/" />
         </div>
         <div
-          className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%] mx-1 
-          md:left-1/2 md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl 
+          className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[-5%] md:bottom-[5%] mx-1 
+          md:left-1/2 md:-translate-x-1/2  border border-slate-200 rounded-xl 
           text-center shadow-xl"
         >
           <p>Data Services</p>
