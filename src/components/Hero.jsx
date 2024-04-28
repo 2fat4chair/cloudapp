@@ -24,8 +24,8 @@ function Hero() {
         </div>
         <div
           className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[-5%] md:bottom-[5%] mx-1 
-          md:left-1/2 md:-translate-x-1/2  border border-slate-200 rounded-xl 
-          text-center shadow-xl"
+          md:left-1/2 md:-translate-x-1/2  border border-slate-100 rounded-xl 
+          text-center shadow-xl bg-white"
         >
           <p>Data Services</p>
           <div className="flex justify-between flex-wrap px-4">
